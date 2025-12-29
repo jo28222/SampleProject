@@ -1,0 +1,145 @@
+ *{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+}
+
+body{
+   background-color: whitesmoke;
+}
+
+/* styling header */
+.header{
+    background-color: white;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+/* logo */
+.logo{
+   margin-right: 20px;
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+
+/* search-box */
+.search-box{
+    flex: 1;
+}
+.search-box input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+    background-color: azure;
+}
+
+/* header buttons */
+.header-buttons{
+    margin-left: 20px;
+    display: flex;
+    gap: 15px;
+}
+.btn{
+    background: white;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* styling categories */
+.categories{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: default;
+}
+.categories p:hover{
+    background-color: black;
+    color: white;
+}
+
+/* styling products */
+.products{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.product{
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.product:hover{
+    transform: scale(1.05);
+}
+.product img{
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+}
+.product h4{
+    margin: 10px 0;
+    font-size: 15px;
+}
+.price{
+    color: green;
+    font-weight: bold;
+}
+.offer{
+    color: gray;
+    font-size: 13px;
+}
+
+/* styling footer */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.footer p{
+    color: whitesmoke;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+.footer p:hover{
+    transform: scale(1.1);
+}
+.footer h6{
+    margin-bottom: 5px;
+}
+.footer h6:hover{
+    text-decoration: underline;
+}
+
+/* styling the social section */
+.social{
+    display: inline-flex;
+    background-color: white;
+    height: 50px;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.social img:hover{
+    transform: scale(1.03);
+}
