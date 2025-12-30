@@ -149,7 +149,8 @@ body{
 @media (max-width: 768px) {
   body {
        font-size: 14px;
-       padding: 10px;
+       padding: 0 10px;
+       width: 100%;
   }
   
   .header {
@@ -157,3 +158,4 @@ body{
   }
  }
    
+
