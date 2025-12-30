@@ -142,4 +142,18 @@ body{
 }
 .social img:hover{
     transform: scale(1.03);
+
 }
+/* Media query */
+/* Mobile view */
+@media (max-width: 768px) {
+  body {
+       font-size: 14px;
+       padding: 10px;
+  }
+  
+  .header {
+       flex-direction: column;
+  }
+ }
+   
